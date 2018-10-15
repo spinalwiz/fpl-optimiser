@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4f2178c-476d-4d9e-9491-e828dda5cfe3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/fpl$scratch_1.coverage" NAME="scratch_1 Coverage Results" MODIFIED="1539095018663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/fpl$combinations.coverage" NAME="combinations Coverage Results" MODIFIED="1539593294477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fpl$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1537907011718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fpl$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1539087848471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/fpl$fpl.coverage" NAME="fpl Coverage Results" MODIFIED="1539593156988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-279102759">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="419" />
+          <entry key="dummy" value="3" />
+          <entry key="py" value="13524" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="13643" />
+          <entry key="Scratch" value="300" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="json" value="2" />
+          <entry key="py" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="2" />
+          <entry key="Python" value="7" />
+          <entry key="Scratch" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fpl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="311" column="32" selection-start-line="311" selection-start-column="32" selection-end-line="311" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#335#7074#0" />
+                <element signature="e#7104#7162#0" />
+                <element signature="e#9765#9780#0" />
+                <marker date="1539593156957" expanded="true" signature="7100:7166" ph="..." />
+                <marker date="1539593156957" expanded="true" signature="9027:9033" ph="..." />
+                <marker date="1539593156957" expanded="true" signature="9065:9074" ph="..." />
+                <marker date="1539593156957" expanded="true" signature="9065:9477" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/combinations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="107" column="29" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#272#305#0" />
+                <marker date="1539593294430" expanded="true" signature="183:185" ph="..." />
+                <marker date="1539593294430" expanded="true" signature="299:304" ph="..." />
+                <marker date="1539593294430" expanded="true" signature="1038:1039" ph="..." />
+                <marker date="1539593294430" expanded="true" signature="2225:2391" ph="..." />
+                <marker date="1539593294430" expanded="true" signature="3389:3398" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>NPxG</find>
+      <find>min</find>
+      <find>team</find>
+      <find>fpl_tr</find>
+      <find>prin</find>
+      <find>combinations</find>
+      <find>team_size</find>
+      <find>to_d</find>
+      <find>print(self.</find>
+      <find>sort_</find>
+      <find>King</find>
+      <find>ft</find>
+      <find>minutes</find>
+      <find>David</find>
+      <find>drop</find>
+      <find>self.players</find>
+      <find>self.possi</find>
+      <find>player_te</find>
+      <find>self.player</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/fpl_trans.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+        <option value="$PROJECT_DIR$/fpl.py" />
+        <option value="$PROJECT_DIR$/combinations.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-4" />
+    <option name="width" value="496" />
+    <option name="height" value="528" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fpl" type="462c0819:PsiDirectoryNode" />
+              <item name="obj" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.combinations">
+    <configuration name="combinations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="fpl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/combinations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fpl" type="PythonConfigurationType" factoryName="Python">
+      <module name="fpl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Dan\AppData\Local\Programs\Python\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fpl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="fpl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="fpl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.fpl" />
+      <item itemvalue="Python.scratch" />
+      <item itemvalue="Python.scratch_1" />
+      <item itemvalue="Python.combinations" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.combinations" />
+        <item itemvalue="Python.scratch_1" />
+        <item itemvalue="Python.scratch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4f2178c-476d-4d9e-9491-e828dda5cfe3" name="Default Changelist" comment="" />
+      <created>1537864367321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537864367321</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13933548" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="DB Browser" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32890856" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32743362" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27181208" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45973155" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="DB Execution Console" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3296582" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32890856" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Google Cloud Storage" order="3" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/playersdata18_19.json" />
+    <entry file="file://$PROJECT_DIR$/playersdata17_18.json" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fpl_trans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="45" column="30" selection-end-line="45" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/zipfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="2036" lean-forward="true" selection-start-line="2036" selection-end-line="2036" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fpl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="311" column="32" selection-start-line="311" selection-start-column="32" selection-end-line="311" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#335#7074#0" />
+            <element signature="e#7104#7162#0" />
+            <element signature="e#9765#9780#0" />
+            <marker date="1539593156957" expanded="true" signature="7100:7166" ph="..." />
+            <marker date="1539593156957" expanded="true" signature="9027:9033" ph="..." />
+            <marker date="1539593156957" expanded="true" signature="9065:9074" ph="..." />
+            <marker date="1539593156957" expanded="true" signature="9065:9477" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/combinations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="107" column="29" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#272#305#0" />
+            <marker date="1539593294430" expanded="true" signature="183:185" ph="..." />
+            <marker date="1539593294430" expanded="true" signature="299:304" ph="..." />
+            <marker date="1539593294430" expanded="true" signature="1038:1039" ph="..." />
+            <marker date="1539593294430" expanded="true" signature="2225:2391" ph="..." />
+            <marker date="1539593294430" expanded="true" signature="3389:3398" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
