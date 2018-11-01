@@ -58,5 +58,25 @@ player_trans = {
     'Ricardo Domingos Barbosa Pereira': 'Ricardo Pereira',
     'Bamidele Alli': 'Dele Alli',
     'Kepa Arrizabalaga': 'Kepa',
-    'Heung-Min Son': 'Son Heung-Min'
+    'Heung-Min Son': 'Son Heung-Min',
+    'Mathias Jorgensen': 'Zanka',
+    'Javier Hernández Balcázar': 'Chicharito',
+    'Fernando Luiz Rosa': 'Fernandinho',
+    'Sung-yueng Ki': 'Ki Sung-yueng',
+    'Oriol Romeu Vidal': 'Oriol Romeu',
+    'Fabricio Agosto Ramírez': 'Fabri',
+    'Romain Saïss': 'Romain Saiss',
+    'David Junior Hoilett': 'Junior Hoilett',
+    'Ashley Darel Jazz Richards': 'Jazz Richards',
+    'Francisco Femenía Far': 'Kiko Femenía',
+    'Bernardo Fernandes da Silva Junior': 'Bernardo',
+    'Bruno Saltor Grau': 'Bruno',
+    'José Heriberto Izquierdo Mena': 'José Izquierdo',
+    'André-Frank Zambo Anguissa': 'Franck Zambo',
+    'Adrien Sebastian Perruchet Silva': 'Adrien Silva',
+    'Greg Cunninghamm': 'Greg Cunningham',
+    'Bonatini Lohner Maia Bonatini': 'Léo Bonatini',
+    'Rúben Gonçalo Silva Nascimento Vinagre': 'Rúben Vinagre',
+    'Bernard Anício Caldeira Duarte': 'Bernard'
+
 }

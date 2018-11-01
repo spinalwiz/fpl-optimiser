@@ -136,7 +136,10 @@ def build_player_list():
                            'xPoints', 'xPoints_per_mil', 'xPointsP90', 'xPointsP90_per_mil',
                            'actualP_per_mil', 'actualP_P90_per_mil'
                            ]]
-    df_master = df_master[df_master['minutes'] >= 360]
+    df_bargains = df_master[(df_master['now_cost'] <= 4.5) & (df_master['minutes'] < 360)]  # cheapest options for subs
+    df_bargains['xPointsP90'] = df_bargains['xPointsP90'] * 0.01  # de-weight them
+    df_master = df_master[df_master['minutes'] >= 450]
+    df_master = df_master.append(df_bargains)
     df_master.to_excel('out.xlsx', encoding='utf-8')
     return df_master
     # pc.df.to_sql(con=database_connection, name='1fpl', if_exists='replace') # , index_label='entity_id'
@@ -144,6 +147,7 @@ def build_player_list():
 
 def read_player_list():
     df_master = pd.read_excel('out.xlsx')
+    df_master.set_index('player_name', inplace=True)
     return df_master
 
 
@@ -162,15 +166,14 @@ class Optimiser:
         self.max_players_per_pos = max_players_per_pos
         self.num_gks = self.num_defs = self.num_mids = self.num_forwards = 0
 
-        self.exclude_players()
+        self.weight_players()
         self.update_custom_prices()
-        self.player_list.sort_values('xPointsP90', ascending=False, inplace=True)
-        # self.exclude_dominated()
+        self.player_list.sort_values(by='element_type', inplace=True)
         self.player_list.reset_index(inplace=True)
-        self.filter_to_shortlist()
+        # self.exclude_dominated()
+        # self.filter_to_shortlist()
         self._num_players = len(self.player_list.index)
         print("Number of players to choose from = {}".format(self._num_players))
-        self.prepare_optimise()
 
     def exclude_dominated(self):
         self.player_list['remove'] = self.player_list.apply(self.filter_dominated, axis=1)
@@ -178,14 +181,26 @@ class Optimiser:
         print(len(self.player_list.index))
 
     def update_custom_prices(self):
-        price_update = {'Benjamin Mendy': 6.1, 'Andrew Robertson': 6.1, 'Richarlison': 6.7,
-                        'Aaron Wan-Bissaka': 4.1, 'Marcos Alonso': 6.9, 'Callum Wilson': 6.3}
+        price_update = {'Benjamin Mendy': 6, 'Andrew Robertson': 6, 'Richarlison': 6.7,
+                        'Aaron Wan-Bissaka': 4, 'Callum Wilson': 6.3,
+                        'Raheem Sterling': 11.1, 'Eden Hazard': 11.3, 'Raúl Jiménez': 5.6,
+                        'Danny Ings': 5.6, 'Matt Doherty': 4.6}
         self.player_list.update(pd.Series(price_update, name="now_cost"))
         print(self.player_list[self.player_list.index.isin(price_update.keys())]['now_cost'])
 
-    def exclude_players(self):
-        player_exclude = ['David Silva', 'Henrikh Mkhitaryan', 'James Milner', 'Paul Pogba', 'Ryan Fraser']
-        self.player_list.drop(player_exclude, errors='ignore', inplace=True)
+    def weight_players(self):
+        player_weights = {'David Silva': 0.80,
+                          'James Milner': 0.7,
+                          'Paul Pogba': 0.9,
+                          'Sergio Agüero': 0.85,
+                          'Jamie Vardy': 0.85,
+                          'Josh Murphy': 0.80,
+                          'David Brooks': 0.80,
+                          'Davinson Sánchez': 0.8,
+                          'Callum Paterson': 0.8
+                        }
+        for k, v in player_weights.items():
+            self.player_list.loc[k, 'xPointsP90'] = self.player_list.loc[k, 'xPointsP90'] * v
 
     def filter_dominated(self, row):
         if(len(self.player_list[(row.xPointsP90 < self.player_list['xPointsP90']) &
@@ -211,6 +226,7 @@ class Optimiser:
     def filter_to_shortlist(self):
         num = self._shortlist_num
 
+        self.player_list.sort_values('xPointsP90', ascending=False, inplace=True)
         # Efficiency
         goalkeepers = list(self.player_list[self.player_list.element_type == 1].iloc[:5, :]['player_name'])
         defenders = list(self.player_list[self.player_list.element_type == 2].iloc[:num, :]['player_name'])
@@ -237,8 +253,6 @@ class Optimiser:
 
         players = goalkeepers + defenders + midfielders + forwards
         self.player_list = self.player_list[self.player_list.player_name.isin(players)]
-        self.player_list.sort_values(by='element_type', inplace=True)
-        self.player_list.reset_index(inplace=True, drop=True)
 
     def prepare_optimise(self):
         max_gks, max_defs, max_mids, max_fws = self.max_players_per_pos
@@ -263,6 +277,7 @@ class Optimiser:
         self.player_points = self.player_list['xPointsP90'].to_dict()
         self.player_teams = self.player_list['team'].to_dict()
 
+
         data_for_combs = {
             'player_costs': self.player_costs,
             'player_points': self.player_points,
@@ -271,9 +286,11 @@ class Optimiser:
             'k_maxs': self.k_maxs,
             'budget': self.budget,
             'n': self._num_players,
-            'k': self.team_size
+            'k': self.team_size,
+            'player_positions': self.player_list['element_type'].to_dict(),
+            'names': self.player_list['player_name'].to_dict()
         }
-        save_obj(data_for_combs, "data_for_combs")
+        save_obj(data_for_combs, "data")
 
     def find_best_team(self):
         max_score = 0
@@ -303,17 +320,18 @@ class Optimiser:
 
 
 if True:
-    # build_player_list()
+    build_player_list()
     df_player_list = read_player_list()
-    optimiser = Optimiser(df_player_list, team_size=11, shortlist_num=6, budget=82.5, max_players_per_pos=[1, 5, 5, 3])
-    print("Starting Optimize...")
+    optimiser = Optimiser(df_player_list, team_size=11, shortlist_num=11, budget=82.5, max_players_per_pos=[1, 5, 5, 3])
+    optimiser.prepare_optimise()
 
-    t1 = timeit.timeit(lambda: optimiser.optimise(), number=1)
-    print("Optimization Time: {:.2f}".format(t1))
-    print("Possible Teams: {}".format(len(optimiser.possible_teams)))
-
-    t2 = timeit.timeit(lambda: optimiser.find_best_team(), number=1)
-    print("Team Find Time: {:.2f}".format(t2))
-    print("Total Time: {:.2f}".format(t1+t2))
+    # print("Starting Optimize...")
+    # t1 = timeit.timeit(lambda: optimiser.optimise(), number=1)
+    # print("Optimization Time: {:.2f}".format(t1))
+    # print("Possible Teams: {}".format(len(optimiser.possible_teams)))
+    #
+    # t2 = timeit.timeit(lambda: optimiser.find_best_team(), number=1)
+    # print("Team Find Time: {:.2f}".format(t2))
+    # print("Total Time: {:.2f}".format(t1+t2))
 
 

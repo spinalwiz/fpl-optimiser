@@ -7,12 +7,16 @@ def load_obj(name):
     with open('obj/' + name + '.pkl', 'rb') as f:
         return pickle.load(f)
 
+def save_obj(obj, name):
+    with open('obj/' + name + '.pkl', 'wb') as f:
+        pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
+
 
 class Combinations:
 
     # def __init__(self, n, k, k_mins: list, k_maxs: list, player_costs: dict, player_teams: dict, budget: float):
     def __init__(self):
-        data = load_obj('data_for_combs')
+        data = load_obj('data')
         self.n = data['n']
         self.k = data['k']
         self.k_mins = data['k_mins']
@@ -20,6 +24,9 @@ class Combinations:
         self.player_costs = data['player_costs']
         self.player_teams = data['player_teams']
         self.budget = data['budget']
+        self.possible_teams = []
+
+        print("n: {}, k: {}".format(self.n, self.k))
 
     def get_combs(self):
 
@@ -70,6 +77,8 @@ class Combinations:
 
     def validate_team(self, comb):
         if self.in_budget(comb) and self.players_per_team(comb):
+            if len(comb) == self.k:
+                self.possible_teams.append(comb)
             return True
         else:
             return False
@@ -81,9 +90,9 @@ class Combinations:
         """
         new_comb = comb[:]
         new_comb[pos] += 1
-        if self.validate_team(new_comb[:pos + 1]):
-            for idx in range(pos + 1, len(comb)):
-                new_comb[idx] = max(new_comb[idx - 1] + 1, self.k_mins[idx])
+        # if self.validate_team(new_comb[:pos + 1]):
+        for idx in range(pos + 1, len(comb)):
+            new_comb[idx] = max(new_comb[idx - 1] + 1, self.k_mins[idx])
         return new_comb
 
     def get_next_combination(self, comb):
@@ -93,6 +102,7 @@ class Combinations:
         """
         pos_to_change = self.get_pos_to_change(comb)
         if pos_to_change < 0:
+            save_obj(self.possible_teams, "possible_teams")
             return None
         return self.inc_value_at_pos(comb, pos_to_change)
 
@@ -102,7 +112,9 @@ if __name__ == '__main__':
     # c = Combinations(10, 3, [0, 3, 7], [1, 5, 9]).get_combs()
     def run():
         c = Combinations().get_combs()
-        print(len(list(c)))
+        # print(len(list(c)))
+        for r in c:
+            pass
 
     t1 = timeit.timeit(run, number=1)
     print("total time: {:.2f}".format(t1))
