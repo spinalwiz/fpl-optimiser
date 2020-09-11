@@ -54,7 +54,7 @@ prob += lpSum([sub2_vars[i] for i in sub2]) == 1, "1 x sub 2"
 prob += lpSum([sub3_vars[i] for i in sub3]) == 1, "1 x sub 3"
 
 # 11 means everyone is different
-changes = 2
+changes = 1
 limit_changes = True
 limit_sub_changes = False
 
@@ -92,7 +92,7 @@ prob += lpSum([liverpool_team[i] * player_vars[i] for i in players] +
 prob += lpSum([costs[i] * player_vars[i] for i in players] +
               [costs[i] * sub1_vars[i] for i in sub1] +
               [costs[i] * sub2_vars[i] for i in sub2] +
-              [costs[i] * sub3_vars[i] for i in sub3]) <= 960, "Total Cost"
+              [costs[i] * sub3_vars[i] for i in sub3]) <= 952, "Total Cost"
 prob += lpSum([gks[i] * player_vars[i] for i in players]) == 1, "Only 1 GK"
 prob += lpSum([gks[i] * sub1_vars[i] for i in sub1] +
               [gks[i] * sub2_vars[i] for i in sub2] +

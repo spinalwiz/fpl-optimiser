@@ -146,15 +146,13 @@ def read_player_list():
 class Optimiser:
 
     def __init__(self, df: pd.DataFrame, team_size: int, shortlist_num: int, budget: float, max_players_per_pos: list):
-        # self.current_team = ['Paulo Gazzaniga', 'Trent Alexander-Arnold', 'Andrew Robertson', 'Benjamin Mendy',
-        #         'Ricardo Pereira', 'César Azpilicueta', 'Raheem Sterling', 'Anwar El Ghazi', 'Anthony Martial', 'Mason Mount', 'Jamie Vardy',
-        #         'Raúl Jiménez', 'Harvey Barnes', 'Mason Greenwood']
-        self.current_team = ['Nick Pope', 'Trent Alexander-Arnold', 'Aaron Wan-Bissaka', 'Matt Doherty', 'Mason Holgate',
-                'Ismaila Sarr', 'César Azpilicueta', 'Sadio Mané', 'Mohamed Salah', 'Anthony Martial', 'Jorginho', 'Lys Mousset',
-                'Teemu Pukki', 'Troy Deeney']
-        # self.current_team = ['Nick Pope', 'Trent Alexander-Arnold', 'Andrew Robertson', 'Ben Chilwell',
-        #         'Kevin De Bruyne', 'Mason Holgate', 'Mohamed Salah', 'Anwar El Ghazi', 'Anthony Martial', 'Mason Mount', 'Tammy Abraham',
-        #         'Neal Maupay', 'Mason Greenwood', 'John Lundstram']
+
+        # self.current_team = ['Nick Pope', 'Trent Alexander-Arnold', 'Virgil van Dijk', 'Matt Doherty', 'Aymeric Laporte',
+        #         'Ismaila Sarr', 'César Azpilicueta', 'Sadio Mané', 'Richarlison', 'Andreas Pereira', 'Son Heung-Min', 'Gabriel Martinelli',
+        #         'Mason Greenwood', 'Raúl Jiménez']
+        self.current_team = ['Nick Pope', 'Trent Alexander-Arnold', 'Andrew Robertson', 'Romain Saiss',
+                'Kevin De Bruyne', 'Mason Holgate', 'Mohamed Salah', 'Anwar El Ghazi', 'Anthony Martial', 'Mason Mount', 'Tammy Abraham',
+                'Neal Maupay', 'Mason Greenwood', 'John Lundstram']
         self.budget = budget
         self.best_team = None
         self.player_list = df
@@ -187,7 +185,7 @@ class Optimiser:
                           'Ashley Young': 0.1,
                           'James Milner': 0.7,
                           'Paul Pogba': 1,
-                          'Sergio Agüero': 0.7,
+                          'Sergio Agüero': 0.9,
                           'Jamie Vardy': 1,
                           'Davinson Sánchez': 1,
                           'Joshua King': 1,
@@ -211,12 +209,12 @@ class Optimiser:
                           'Emerson': 0.8,
                           'Paul Pogba': 1,
                           'Kevin De Bruyne': 1,
-                          'Raheem Sterling': 0.5,
+                          'Raheem Sterling': 0.9,
                           'Bernardo Silva': 0.8,
                           "Oleksandr Zinchenko": 0.1,
                           'Adrián': 0.1,
                           'Kurt Zouma': 0.7,
-                          'Christian Pulisic': 0.1,
+                          'Christian Pulisic': 0.9,
                           'Riyad Mahrez': 0.7,
                           'Seamus Coleman': 1,
                           'Marcos Alonso': 0.8,
@@ -224,7 +222,7 @@ class Optimiser:
                           'Henrikh Mkhitaryan': 0.1,
                           'João Cancelo': 0.8,
                           'Chris Wood': 0.8,
-                          'Aymeric Laporte': 0.1,
+                          'Aymeric Laporte': 1,
                           'Wes Morgan': 0.1,
                           'Isaac Success': 0.1,
                           'Kyle Walker': 0.7,
@@ -259,13 +257,13 @@ class Optimiser:
                           'Ross Barkley': 0.9,
                           'Harvey Barnes': 0.9,
                           'Sadio Mané': 1,
-                          'Nick Pope': 1.5,
+                          'Nick Pope': 1.3,
                           'Christian Fuchs': 0.2,
-                          'Benjamin Mendy': 0.7,
+                          'Benjamin Mendy': 0.9,
                           'Aaron Connolly': 0.5,
                           'Rúben Vinagre': 0.1,
-                          'Son Heung-Min': 0.1,
-                          'Dele Alli': 0.1,
+                          'Son Heung-Min': 1,
+                          'Dele Alli': 0.9,
                           'Max Kilman': 0.1
 
                         }
@@ -275,7 +273,7 @@ class Optimiser:
     def prepare_optimise(self):
         # print(self.player_list['player_name'])
         # TODO: Remove or fix this properly
-        self.player_list = self.player_list.drop([477, 478, 479, 480, 481, 482, 483])
+        self.player_list = self.player_list.drop([491, 492, 493, 494, 495, 496, 497, 498])
         # self.player_list = self.player_list[pd.notnull(self.player_list['xPoints'])]
         self.player_list['xPoints'] = self.player_list['xPoints'].apply(lambda x: 0 if np.isnan(x) else x)
         # self.player_list.to_excel("player_list.xlsx")
