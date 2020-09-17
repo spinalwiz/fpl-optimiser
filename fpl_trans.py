@@ -1,26 +1,28 @@
-#  Need to update this and  the next at the start of the season
-teams= [
-    'Arsenal',
-    'Aston Villa',
-    'Bournemouth',
-    'Brighton',
-    'Burnley',
-    'Sheffield United',
-    'Chelsea',
-    'Crystal Palace',
-    'Everton',
-    'Norwich',
-    'Leicester',
-    'Liverpool',
-    'Manchester City',
-    'Manchester United',
-    'Newcastle United',
-    'Southampton',
-    'Tottenham',
-    'Watford',
-    'West Ham',
-    'Wolverhampton Wanderers'
-]
+#  Need to update this at the start of every season
+#  This file is to map names of players and teams between the official fpl api and the understat api
+
+# teams= [
+#     'Arsenal',
+#     'Aston Villa',
+#     'Brighton',
+#     'Burnley',
+#     'Sheffield United',
+#     'Chelsea',
+#     'Crystal Palace',
+#     'Everton',
+#     'Fulham',
+#     'Leeds',
+#     'Leicester',
+#     'Liverpool',
+#     'Manchester City',
+#     'Manchester United',
+#     'Newcastle United',
+#     'Southampton',
+#     'Tottenham',
+#     'West Brom',
+#     'West Ham',
+#     'Wolverhampton Wanderers'
+# ]
 
 
 # from get_understat_data df_matches
@@ -158,6 +160,32 @@ player_trans = {
     'Joelinton Cássio Apolinário de Lira': 'Joelinton',
     'Maximillian Aarons': 'Max Aarons',
     'Tanguy Ndombele': 'Tanguy NDombele Alvaro',
-    'Pedro Lomba Neto': 'Pedro Neto'
+    'Pedro Lomba Neto': 'Pedro Neto',
+    'Bruno Miguel Borges Fernandes': 'Bruno Fernandes'
 
 }
+
+
+# 19/20
+teams= [
+    'Arsenal',
+    'Aston Villa',
+    'Bournemouth',
+    'Brighton',
+    'Burnley',
+    'Sheffield United',
+    'Chelsea',
+    'Crystal Palace',
+    'Everton',
+    'Norwich',
+    'Leicester',
+    'Liverpool',
+    'Manchester City',
+    'Manchester United',
+    'Newcastle United',
+    'Southampton',
+    'Tottenham',
+    'Watford',
+    'West Ham',
+    'Wolverhampton Wanderers'
+]

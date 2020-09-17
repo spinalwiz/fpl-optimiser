@@ -1,0 +1,6 @@
+__pycache__/
+venv/
+desktop.ini
+archive/
+~$*
+.idea

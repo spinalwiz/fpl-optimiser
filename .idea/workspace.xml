@@ -1,15 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c4f2178c-476d-4d9e-9491-e828dda5cfe3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ou 16 June 2020t.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fpl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fpl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Team Builder.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_out_nov_19.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiout.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/clean_sheets - 8th Oct 2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/clean_sheets 18_19.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/out.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/out_team.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean_sheets.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean_sheets.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/clean_sheets.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/df_matches.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dummydata/apiout.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dummydata/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dummydata/playersdata17_18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dummydata/playersdata18_19.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dummydata/~$apiout.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fpl.py" beforeDir="false" afterPath="$PROJECT_DIR$/fpl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integer.py" beforeDir="false" afterPath="$PROJECT_DIR$/integer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fpl_trans.py" beforeDir="false" afterPath="$PROJECT_DIR$/fpl_trans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fpl_trans.py___jb_tmp___" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_understat_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_understat_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/match_data_aggregated.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/match_data_aggregated.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/match_data_processed.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/match_data_processed.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/match_data_raw.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/match_data_raw.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/data.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/obj/data.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ou 16 June 2020t.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out 2018-10-16.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out 2018-10-27.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out 2018-10-29.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out 2018-11-20.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out 2018-11-26 v2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out 2018-11-26.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out 2019-05-13.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out based on 18_19.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/out.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outNov19 Old Version.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/player_list.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/teamsdata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/understatout.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/understatout[Conflict].xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$Team Builder.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$clean_sheets.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$out.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$understatout.xlsx" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,107 +82,6 @@
     <SUITE FILE_PATH="coverage/fpl$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1539087848471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/fpl$fpl.coverage" NAME="fpl Coverage Results" MODIFIED="1592912093008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-279102759">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="74" />
-          <entry key="project.open.time.0" value="32" />
-          <entry key="project.open.time.1" value="5" />
-          <entry key="project.open.time.11" value="3" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="16" />
-          <entry key="project.open.time.7" value="17" />
-          <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="82" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Python Console" value="514" />
-          <entry key="dummy" value="3" />
-          <entry key="js" value="20" />
-          <entry key="py" value="21782" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JavaScript" value="20" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="21996" />
-          <entry key="Scratch" value="300" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="js" value="1" />
-          <entry key="json" value="2" />
-          <entry key="py" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="1" />
-          <entry key="Python" value="13" />
-          <entry key="Scratch" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fpl.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="152" column="101" selection-start-line="152" selection-start-column="101" selection-end-line="152" selection-end-column="101" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fpl_trans.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/get_understat_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1014">
-              <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/integer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="94" column="61" selection-start-line="94" selection-start-column="61" selection-end-line="94" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -133,56 +90,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>f</find>
-      <find>filter_to_shortlist</find>
-      <find>k_mins</find>
-      <find>budget</find>
-      <find>print(</find>
-      <find>trans</find>
-      <find>print</find>
-      <find>nd</find>
-      <find>apio</find>
-      <find>Palmieri</find>
-      <find>merge</find>
-      <find>Bernar</find>
-      <find>team</find>
-      <find>my_te</find>
-      <find>weight_players</find>
-      <find>teams_trans</find>
-      <find>re</find>
-      <find>my_team</find>
-      <find>Todo</find>
-      <find>dogan</find>
-      <find>current_team</find>
-      <find>Pope</find>
-      <find>Mendy</find>
-      <find>Salah</find>
-      <find>Lund</find>
-      <find>Lundstram</find>
-      <find>man_cit</find>
-      <find>Isaac Success</find>
-      <find>changes</find>
-      <find>471</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
-        <option value="$PROJECT_DIR$/integer.js" />
-        <option value="$PROJECT_DIR$/combinations.py" />
-        <option value="$PROJECT_DIR$/fpl_trans.py" />
-        <option value="$PROJECT_DIR$/get_understat_data.py" />
-        <option value="$PROJECT_DIR$/integer.py" />
-        <option value="$PROJECT_DIR$/fpl.py" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -190,56 +99,24 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="528" />
-    <option name="y" value="69" />
-    <option name="width" value="1296" />
-    <option name="height" value="1416" />
-  </component>
+  <component name="ProjectId" id="1hM0mXhD5oiGv1C6KGGU6JhFK1G" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="fpl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sulis_tools" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dan\Google Drive\Art\Python\fpl" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.fpl">
     <configuration name="combinations" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -271,7 +148,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Dan\AppData\Local\Programs\Python\Python36\python.exe" />
+      <option name="SDK_HOME" value="C:\apps\fpl\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -321,7 +198,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/integer.py" />
+      <option name="SCRIPT_NAME" value="C:\apps\fpl\optimiser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -392,6 +269,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -405,42 +283,55 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17917" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="DB Browser" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32662192" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40268457" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45870206" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.1291866" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32743362" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32890856" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Google Cloud Storage" order="3" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.3297587" />
-      <window_info anchor="right" id="Database" order="5" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599806363393">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599806363393" />
+    <state width="2539" height="350" key="GridCell.Tab.0.bottom" timestamp="1599829356650">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1899" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599811273535" />
+    <state width="2539" height="350" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599829356650" />
+    <state width="2539" height="350" key="GridCell.Tab.0.center" timestamp="1599829356650">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1899" height="350" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599811273535" />
+    <state width="2539" height="350" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599829356650" />
+    <state width="2539" height="350" key="GridCell.Tab.0.left" timestamp="1599829356650">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1899" height="350" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599811273535" />
+    <state width="2539" height="350" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599829356650" />
+    <state width="2539" height="350" key="GridCell.Tab.0.right" timestamp="1599829356650">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1899" height="350" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599811273535" />
+    <state width="2539" height="350" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599829356650" />
+    <state x="314" y="224" key="SettingsEditor" timestamp="1600334759970">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599806321193" />
+    <state x="314" y="224" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1600334759970" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1600344220325">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="707" y="234" width="672" height="504" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600323976320" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1600344220325" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -452,89 +343,5 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/playersdata18_19.json" />
-    <entry file="file://$PROJECT_DIR$/playersdata17_18.json" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="45" column="30" selection-end-line="45" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/zipfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="2036" lean-forward="true" selection-start-line="2036" selection-end-line="2036" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integer.js" />
-    <entry file="file://$PROJECT_DIR$/combinations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fpl_trans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_understat_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1014">
-          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="94" column="61" selection-start-line="94" selection-start-column="61" selection-end-line="94" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fpl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="152" column="101" selection-start-line="152" selection-start-column="101" selection-end-line="152" selection-end-column="101" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
