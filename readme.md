@@ -1,9 +1,9 @@
-#Fantasy Premier League: Team Selector and Optimizer
+# Fantasy Premier League: Team Selector and Optimizer
 
-##What is This?
+## What is This?
 FPL Optimizer selects the best possible fantasy football team by using an expected points model to generate expected points (xP) for every player in [Fantasy Premier League (FPL)](https://fantasy.premierleague.com/) and then using a Linear Programming model to select the best possible combination of players given a limited budget (and other constraints). 
  
- ### How Does it Work?
+### How Does it Work?
  To generate expected points it uses:
  * Expected Points
  * Expected Assists
@@ -19,7 +19,7 @@ FPL Optimizer selects the best possible fantasy football team by using an expect
  
  The Liner Programming Model is then able to select a team (or changes to a team) based on the FPL constraints for player positions (e.g. no more than 3 Forwards) and a budget (e.g. 100 million).
  
- ###Features
+### Features
  * Updates player data after every match
  * Pick a brand new team or optimise a current team
  * Restrict the number of changes (e.g. find the best two changes to my current team)
@@ -31,7 +31,7 @@ FPL Optimizer selects the best possible fantasy football team by using an expect
  * Recommends who to captain
  * Recommends subs
  
- ##Requirements
+## Requirements
  Requires Python 3.5 or above. 
  
  In Ubuntu, Mint and Debian you can install Python 3 like this:
@@ -42,7 +42,7 @@ For other Linux flavors, macOS and Windows, packages are available at
 
 https://www.python.org/getit/
 
-##Quick Start
+## Quick Start
 Clone the repository 
 
 `git clone https://github.com/spinalwiz/fpl-optimiser.git`
@@ -59,10 +59,7 @@ Update data and build the player list. The first run will take a LONG time as it
 Then run the optimiser with:
 `python fpl.py`
 
-
-
-
-##Notes
+## Notes
 fpl.py contains settings, defaults are:
 `budget=96, limit_changes=False, limit_sub_changes=False, num_changes=2`
 
@@ -76,13 +73,13 @@ fpl_trans.py is for translating player's full names to their FPL short names (e.
 
 in get_understat_data.py you can edit the lookback period
 
-##To Do
+## To Do
 * Make all settings adjustable through command line arguments (instead of needing to edit the source files)
 * Make loading previous season data more user friendly
 * Add match difficulty and bonus points model
 * Add 3 players per team constraint to all teams (currently only added for Liverpool and Man City which has been sufficient so far...)
 
-##Technology
+## Technology
 Python
 Pandas and Numpy
 Pulp
