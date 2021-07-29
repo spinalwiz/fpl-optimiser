@@ -23,12 +23,13 @@ def read_player_list():
 class Optimiser:
 
     def __init__(self, df: pd.DataFrame, budget: float, limit_changes: bool, limit_sub_changes: bool, num_changes: int):
-        self.current_team = my_team.team2
+        self.current_team = my_team.team3
         self.budget = budget
         self.limit_changes = limit_changes
         self.limit_sub_changes = limit_sub_changes
         self.num_changes = num_changes
         self.player_list = df
+        # self.player_list = self.player_list[self.player_list['minutes'] > 800]  # Remove players who havent played at least 800 minutes
         self.player_points = {}
         self.player_costs = {}
         self.player_teams = {}
@@ -65,6 +66,7 @@ class Optimiser:
         print(self.player_list.index[self.player_list['my_team'] == True].tolist())
         self.player_list['man_city_team'] = np.where(self.player_list['team'].isin(['Manchester City']), 1, 0)
         self.player_list['liverpool_team'] = np.where(self.player_list['team'].isin(['Liverpool']), 1, 0)
+        self.player_list['chelsea_team'] = np.where(self.player_list['team'].isin(['Chelsea']), 1, 0)
         self.my_team = self.player_list['my_team'].to_dict()
 
         data_for_optimiser = {
@@ -72,19 +74,21 @@ class Optimiser:
             'player_points': self.player_points,
             'budget': self.budget,
             'limit_changes': self.limit_changes,
-            'sub_changes': self.sub_changes,
+            'limit_sub_changes': self.limit_sub_changes,
+            'num_changes': self.num_changes,
             'player_positions': self.player_list['element_type'].to_dict(),
             'names': self.player_list['player_name'].to_dict(),
             'my_team': self.my_team,
             'man_city_team': self.player_list['man_city_team'].to_dict(),
-            'liverpool_team': self.player_list['liverpool_team'].to_dict()
+            'liverpool_team': self.player_list['liverpool_team'].to_dict(),
+            'chelsea_team': self.player_list['chelsea_team'].to_dict()
         }
-        save_obj(data_for_optimiser, "data")
+        save_obj(data_for_optimiser, "data_for_optimiser")
 
 
 if __name__ == "__main__":
     df_player_list = read_player_list()
-    opt = Optimiser(df_player_list, budget=96, limit_changes=False, limit_sub_changes=False, num_changes=2)
+    opt = Optimiser(df_player_list, budget=96, limit_changes=False, limit_sub_changes=False, num_changes=14)
     opt.prepare_optimise()
     optimiser.run_optimizer()
 

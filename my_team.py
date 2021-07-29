@@ -5,3 +5,5 @@ team1 = ['Nick Pope', 'Trent Alexander-Arnold', 'Virgil van Dijk', 'Matt Doherty
 team2 = ['Nick Pope', 'Trent Alexander-Arnold', 'Andrew Robertson', 'Romain Saiss',
                 'Kevin De Bruyne', 'Mason Holgate', 'Mohamed Salah', 'Anwar El Ghazi', 'Anthony Martial', 'Mason Mount', 'Tammy Abraham',
                 'Neal Maupay', 'Mason Greenwood', 'John Lundstram']
+
+team3 = []

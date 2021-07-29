@@ -1,28 +1,28 @@
 #  Need to update this at the start of every season
 #  This file is to map names of players and teams between the official fpl api and the understat api
 
-# teams= [
-#     'Arsenal',
-#     'Aston Villa',
-#     'Brighton',
-#     'Burnley',
-#     'Sheffield United',
-#     'Chelsea',
-#     'Crystal Palace',
-#     'Everton',
-#     'Fulham',
-#     'Leeds',
-#     'Leicester',
-#     'Liverpool',
-#     'Manchester City',
-#     'Manchester United',
-#     'Newcastle United',
-#     'Southampton',
-#     'Tottenham',
-#     'West Brom',
-#     'West Ham',
-#     'Wolverhampton Wanderers'
-# ]
+teams= [
+    'Arsenal',
+    'Aston Villa',
+    'Brighton',
+    'Burnley',
+    'Sheffield United',
+    'Chelsea',
+    'Crystal Palace',
+    'Everton',
+    'Fulham',
+    'Leeds',
+    'Leicester',
+    'Liverpool',
+    'Manchester City',
+    'Manchester United',
+    'Newcastle United',
+    'Southampton',
+    'Tottenham',
+    'West Brom',
+    'West Ham',
+    'Wolverhampton Wanderers'
+]
 
 
 # from get_understat_data df_matches
@@ -143,7 +143,7 @@ player_trans = {
     'Rúben Gonçalo Silva Nascimento Vinagre': 'Rúben Vinagre',
     'Bernard Anício Caldeira Duarte': 'Bernard',
     'Nicolas Pépé': 'Nicolas Pepe',
-    'José Ignacio Peleteiro Romallo': 'Jota',
+    'José Ignacio Peleteiro Romallo': 'Diogo Jota',
     'André Filipe Tavares Gomes': 'André Gomes',
     'Daniel Ceballos Fernández': 'Dani Ceballos',
     'Joseph Willock': 'Joe Willock',

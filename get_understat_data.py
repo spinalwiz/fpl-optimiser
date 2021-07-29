@@ -19,7 +19,7 @@ if path.exists("match_data_raw.xlsx"):
 def get_match_ids():
     match_ids = []
     for team in teams:
-        raw_html = requests.get(f"{urls.understat_team}{team}/2019").text
+        raw_html = requests.get(f"{urls.understat_team}{team}/2020").text
         # print(raw_html)
 
         # Only works if datesData is first on page. Note sure why
@@ -59,6 +59,7 @@ def get_match_data(match_ids):
 
 if __name__ == "__main__":
     game_history = 18
+    recency_weight = 0.2  # 0.3 means most recent game gets +30% least recent gets -30%
     match_ids = get_match_ids()
     match_data = get_match_data(match_ids)
     df_match_data = pd.DataFrame(match_data)
@@ -81,8 +82,13 @@ if __name__ == "__main__":
     df_match_data.sort_values(by=['player', 'match_id'], ascending=[True, False], inplace=True)
     df_match_data['cumulative_count'] = df_match_data.groupby('player').cumcount()
 
-    # Only include players last 10 games (count start from 0)
+    # Only include players last x games (count start from 0)
     df_match_data = df_match_data[df_match_data['cumulative_count'] <= game_history]
+
+    # apply weighting - dont know how to comment this, did this in excel
+    # TODO: this assumes each player has a full game_history, if they dont they get an overall weighting boost
+    df_match_data['weighted_xG'] = df_match_data['xG'] * ((df_match_data['cumulative_count'] - game_history + 1) * -1 / (game_history - 1) * (recency_weight * 2) + 1 - recency_weight)
+    df_match_data['weight'] = ((df_match_data['cumulative_count'] - game_history + 1) * -1 / (game_history - 1) * (recency_weight * 2) + 1 - recency_weight)
 
     df_match_data.to_excel('match_data_processed.xlsx')
 

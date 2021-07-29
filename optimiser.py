@@ -23,6 +23,7 @@ def run_optimizer():
     my_team = data['my_team']
     man_city_team = data['man_city_team']
     liverpool_team = data['liverpool_team']
+    chelsea_team = data['chelsea_team']
     points = {k: int(v * 10) for (k, v) in data['player_points'].items()}
     players = [i for i in range(len(costs))]
     sub1 = players[:]
@@ -73,6 +74,11 @@ def run_optimizer():
                   [liverpool_team[i] * sub1_vars[i] for i in players] +
                   [liverpool_team[i] * sub2_vars[i] for i in players] +
                   [liverpool_team[i] * sub3_vars[i] for i in players]) <= 3, "No more than 3 Liverpool player"
+
+    prob += lpSum([chelsea_team[i] * player_vars[i] for i in players] +
+                  [chelsea_team[i] * sub1_vars[i] for i in players] +
+                  [chelsea_team[i] * sub2_vars[i] for i in players] +
+                  [chelsea_team[i] * sub3_vars[i] for i in players]) <= 3, "No more than 3 Chelsea player"
 
     prob += lpSum([costs[i] * player_vars[i] for i in players] +
                   [costs[i] * sub1_vars[i] for i in sub1] +
