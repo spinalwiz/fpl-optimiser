@@ -1,6 +1,6 @@
 amply==0.1.2
 appdirs==1.4.4
-certifi==2020.6.20
+certifi==2022.12.7
 chardet==3.0.4
 distlib==0.3.1
 docutils==0.16
